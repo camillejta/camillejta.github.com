@@ -57,7 +57,7 @@
 
 #leftbox {
 	float: left;
-	height: 780px;
+	height: 850px;
 	width: 250px;
 	margin-top: 5px;
 	margin-right: 5px;
@@ -104,7 +104,7 @@
 
 #rightbox {
 	float: left;
-	height: 780px;
+	height: 850px;
 	width: 250px;
 	margin-top: 5px;
 	margin-right: 0px;
