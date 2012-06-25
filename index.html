@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquerydownload.min.js" />
+<link rel='stylesheet' type='text/css' href='../fullcalendar/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='../fullcalendar/fullcalendar.print.css' media='print' />
+<script type='text/javascript' src='../jquery/jquery-1.7.1.min.js'></script>
+<script type='text/javascript' src='../jquery/jquery-ui-1.8.17.custom.min.js'></script>
+<script type='text/javascript' src='../fullcalendar/fullcalendar.min.js'></script>
+<script type='text/javascript'>
+
+	$(document).ready(function() {
+	
+		var date = new Date();
+		var d = date.getDate();
+		var m = date.getMonth();
+		var y = date.getFullYear();
+		
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,basicWeek,basicDay'
+			},
+			editable: true,
+			events: [
+				{
+					title: 'All Day Event',
+					start: new Date(y, m, 1)
+				},
+				{
+					title: 'Long Event',
+					start: new Date(y, m, d-5),
+					end: new Date(y, m, d-2)
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: new Date(y, m, d-3, 16, 0),
+					allDay: false
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: new Date(y, m, d+4, 16, 0),
+					allDay: false
+				},
+				{
+					title: 'Meeting',
+					start: new Date(y, m, d, 10, 30),
+					allDay: false
+				},
+				{
+					title: 'Lunch',
+					start: new Date(y, m, d, 12, 0),
+					end: new Date(y, m, d, 14, 0),
+					allDay: false
+				},
+				{
+					title: 'Birthday Party',
+					start: new Date(y, m, d+1, 19, 0),
+					end: new Date(y, m, d+1, 22, 30),
+					allDay: false
+				},
+				{
+					title: 'Click for Google',
+					start: new Date(y, m, 28),
+					end: new Date(y, m, 29),
+					url: 'http://google.com/'
+				}
+			]
+		});
+		
+	});
+
+</script>
+<style type='text/css'>
+
+	body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+
+	#calendar {
+		width: 900px;
+		margin: 0 auto;
+		}
+
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>stringrhome</title>
+<link href="stringrstylessheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="headline">
+    <div id="logo"></div>
+  </div>
+  <div id="leftbox">something</div>
+  <div id="wrappercal">
+    <div id="calnavigation">
+      <div id="masterTAB">Master</div>
+      <div id="addTAB">Add</div>
+    Content for  id "calnavigation" Goes Here</div>
+    <div id="calmaster1">
+      <div id="boxtest">Content for  id "boxtest" Goes Here</div>
+      <div id="boxtest2">Content for  id "boxtest2" Goes Here</div>
+      Content for  id calendar Goes Here</div>
+    <div id="lowerbanner">Content for  id "lowerbanner" Goes Here</div>
+  </div>
+  <div id="rightbox">Content for  id "rightbox" Goes Here ssss</div>
+  <div id="footer">Content for  id "footer" Goes Here</div>
+</div>
+</body>
+</html>
