@@ -1,7 +1,7 @@
 @charset "utf-8";
 #wrapper {
 	height: auto;
-	width: 1505px;
+	width: 1410px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -36,7 +36,7 @@
 
 
 #lowerbanner {
-	height: 100px;
+	height: 90px;
 	width: 900px;
 	margin-top: 5px;
 	background-color: #9FC;
