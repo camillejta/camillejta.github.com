@@ -1,7 +1,7 @@
 @charset "utf-8";
 #wrapper {
 	height: auto;
-	width: 1105px;
+	width: 1405px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -57,7 +57,7 @@
 
 #leftbox {
 	float: left;
-	height: 680px;
+	height: 780px;
 	width: 250px;
 	margin-top: 5px;
 	margin-right: 5px;
@@ -70,7 +70,7 @@
 	clear: both;
 	float: left;
 	height: 20px;
-	width: 1105px;
+	width: 1405px;
 	margin-top: 5px;
 }
 
@@ -104,7 +104,7 @@
 
 #rightbox {
 	float: left;
-	height: 680px;
+	height: 780px;
 	width: 250px;
 	margin-top: 5px;
 	margin-right: 0px;
