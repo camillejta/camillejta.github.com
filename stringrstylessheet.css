@@ -36,8 +36,8 @@
 
 
 #lowerbanner {
-	height: 80px;
-	width: 595px;
+	height: 100px;
+	width: 900px;
 	margin-top: 5px;
 	background-color: #9FC;
 }
@@ -70,7 +70,7 @@
 	clear: both;
 	float: left;
 	height: 20px;
-	width: 1505px;
+	width: 1410px;
 	margin-top: 5px;
 }
 
