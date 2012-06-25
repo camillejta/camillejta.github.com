@@ -1,7 +1,7 @@
 @charset "utf-8";
 #wrapper {
 	height: auto;
-	width: 1405px;
+	width: 1505px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -9,7 +9,7 @@
 #wrappercal {
 	float: left;
 	height: 680px;
-	width: 595px;
+	width: 900px;
 	margin-top: 5px;
 }
 #masterTAB {
@@ -46,7 +46,7 @@
 #headline {
 	background-color: #FC0;
 	height: 80px;
-	width: 1105px;
+	width: 1505px;
 }
 #boxtest {
 	background-color: #099;
@@ -70,7 +70,7 @@
 	clear: both;
 	float: left;
 	height: 20px;
-	width: 1405px;
+	width: 1505px;
 	margin-top: 5px;
 }
 
@@ -91,7 +91,7 @@
 
 #calnavigation {
 	height: 45px;
-	width: 595px;
+	width: 700px;
 	background-color: #F9F;
 }
 
