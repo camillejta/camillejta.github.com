@@ -13,14 +13,14 @@
 	margin-top: 5px;
 }
 #masterTAB {
-	background-color: #999;
+	background-image: url(images/Master-tab.jpg);
 	height: 40px;
 	width: 75px;
 	float: left;
 	margin-top: 5px;
 }
 #addTAB {
-	background-color: #969;
+	background-image: url(images/Add-tab.jpeg);
 	float: left;
 	height: 40px;
 	width: 75px;
